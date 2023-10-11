@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+    <%- include('partials/navbar') %>
+
+<h1>My Projects</h1>
+
+ <!-- Personal Portfolio Website -->
+ <div class="project-card">
+    <img src="/images/web.png" alt="Portfolio Website Image">
+    <h2>Personal Portfolio Website</h2>
+    <p>An internship application portfolio website designed to showcase my professional achievements, skills, and experiences. It's responsive and user-friendly, ensuring accessibility on all devices.</p>
+</div>
+
+<div class="projects-container">
+    <!-- Student Management System -->
+    <div class="project-card">
+        <img src="/images/SMS.png" alt="Student Management System Image">
+        <h2>Student Management System</h2>
+        <p>Web-based tool for student registration and grading. Earned an 'A+' for user-friendly interface.</p>
+    </div>
+
+    <!-- Duck Runner Game -->
+    <div class="project-card">
+        <img src="/images/bug2.png" alt="Bug smasher Game Image">
+        <h2>Bug Smasher</h2>
+        <p>2D - A  simple Bug Smasher browser-based (HTML5 canvas) game .</p>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
+
+</body>
+</html>
